@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package javaapplication1;
 
 import org.testng.annotations.Test;
@@ -16,13 +17,12 @@ import javaapplication1.Calculator;
 import org.testng.TestNGException;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.testng.Assert;
-
 /**
  *
  * @author ДАШКА
  */
 public class DashaGTest {
+
 
 private static final Logger logger = Logger.getLogger(DashaGTest.class);
 
@@ -51,6 +51,11 @@ private static final Logger logger = Logger.getLogger(DashaGTest.class);
      logger.error("Неверные данные!");
     }
 
+ 
+  
+    }
+      
+     
     @BeforeClass
     public static void setUpClass() throws Exception {
     }
