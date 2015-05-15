@@ -6,23 +6,16 @@
 
 package javaapplication1;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import static org.testng.Assert.*;
-import javaapplication1.Calculator;
-import org.testng.TestNGException;
-import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import static org.testng.Assert.assertEquals;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.*;
+
 /**
  *
- * @author ДАШКА
+ * @author Р”РђРЁРљРђ
  */
 public class DashaGTest {
-
 
 private static final Logger logger = Logger.getLogger(DashaGTest.class);
 
@@ -37,24 +30,19 @@ private static final Logger logger = Logger.getLogger(DashaGTest.class);
     }
 
     public DashaGTest() {
-    logger.info("Работаем с калькулятором");
+    logger.info("Р Р°Р±РѕС‚Р°РµРј СЃ РєР°Р»СЊРєСѓР»СЏС‚РѕСЂРѕРј");
     }
 
     @Test(dataProvider = "datpr")
     public void add(int c, int addDigit) {
       assertEquals(c, addDigit);
-      logger.debug("Сумма:" + c);
+      logger.debug("РЎСѓРјРјР°:" + c);
     }
     @Test(dataProvider = "datpr")
     public void sub(int c, int subDigit) {
-      Assert.assertEquals(c, subDigit);
-     logger.error("Неверные данные!");
+    assertEquals(c, subDigit);
+     logger.error("РќРµРІРµСЂРЅС‹Рµ РґР°РЅРЅС‹Рµ!");
     }
-
- 
-  
-    }
-      
      
     @BeforeClass
     public static void setUpClass() throws Exception {

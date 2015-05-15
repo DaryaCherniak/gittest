@@ -5,6 +5,7 @@
 
 package javaapplication1;
 import java.util.*;
+import javaapplication1.Calculator;
 /**
  *
  * @author smw

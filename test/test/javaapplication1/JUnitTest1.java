@@ -14,6 +14,7 @@ import junit.framework.Assert;
 import static junit.framework.Assert.assertEquals;
 import junit.framework.AssertionFailedError;
 import java.lang. AssertionError;
+import static org.testng.Assert.assertEquals;
 
 /**
  *
