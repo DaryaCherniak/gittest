@@ -1,7 +1,0 @@
-23:15:13,286  INFO main DashaGTest:<init>:40 - Работаем с калькулятором
-23:15:13,504 DEBUG main DashaGTest:add:46 - Сумма:6
-23:15:13,511 DEBUG main DashaGTest:add:46 - Сумма:15
-23:15:13,518 DEBUG main DashaGTest:add:46 - Сумма:9
-23:15:13,540 ERROR main DashaGTest:sub:51 - Неверные данные!
-23:15:13,547 ERROR main DashaGTest:sub:51 - Неверные данные!
-23:15:13,557 ERROR main DashaGTest:sub:51 - Неверные данные!
